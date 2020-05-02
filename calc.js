@@ -18,5 +18,5 @@ $(".sub").on("click",function even(){
     
 });
 $(".clr").on("click",function odd(){
-    $(".fi").val("") &&  $(".se").val("");
+    $(".fi").val("") &&  $(".se").val("") && $(".te").val("") && $(".fr").val("") && $(".fif").val("") && $(".si").val("");
 });
