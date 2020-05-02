@@ -18,5 +18,5 @@ $(".sub").on("click",function even(){
     
 });
 $(".clr").on("click",function odd(){
-    location.reload(true);
+    location.reload(false);
 });
