@@ -1,0 +1,30 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: forestgreen;
+    color: gold;
+    
+}
+.main{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.fi,.se,.te,.fr,.fif,.si{
+    border: 10px solid transparent;
+    border-bottom: 1px solid gold;
+    border-radius: 10px;
+}
+.sub,.clr{
+    border: 10px solid transparent;
+    border-radius: 100px;
+    margin-top: 10px;
+
+}
+.sub:hover,.clr:hover{
+    background-color: gold;
+    color: forestgreen;
+    transition: 0.3s ease;
+    
+}
